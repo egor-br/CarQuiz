@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src ="@drawable/main_menu" />
+
+    <LinearLayout
+        android:id="@+id/conteiner8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_bck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/black95"
+            android:textAllCaps="false"
+
+            android:text="@string/back" />
+
+        <TextView
+            android:id="@+id/tw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu_start"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:textSize="24sp"
+            android:gravity="right"
+            android:padding="7dp"
+            android:text="Игра пройдена на" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/conteiner9"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/stat_info"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/style_btn_menu_off"
+            android:text=" Уровень: правил/неправ" />
+
+    </LinearLayout>
+
+
+
+
+    <ScrollView
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:id="@+id/line_stata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lv1"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:background="@drawable/button_level_start"
+            android:paddingLeft="5dp"
+            android:text="@string/level1" />
+        <TextView
+            android:id="@+id/lv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:background="@drawable/button_level_start"
+            android:paddingLeft="5dp"
+            android:text="@string/level2" />
+        <TextView
+            android:id="@+id/lv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/button_level_start"
+            android:paddingRight="5dp"
+            android:text="@string/level3" />
+        <TextView
+            android:id="@+id/lv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/button_level_start"
+            android:paddingRight="5dp"
+            android:text="@string/level4" />
+        <TextView
+            android:id="@+id/lv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/button_level_start"
+            android:paddingRight="5dp"
+            android:text="@string/level5" />
+        <TextView
+            android:id="@+id/lv6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_level_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level6" />
+        <TextView
+            android:id="@+id/lv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_level_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level7" />
+
+        <TextView
+            android:id="@+id/lv8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_level_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level8" />
+        <TextView
+            android:id="@+id/lv9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level9" />
+        <TextView
+            android:id="@+id/lv10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level10" />
+        <TextView
+            android:id="@+id/lv11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_level_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level11" />
+        <TextView
+            android:id="@+id/lv12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level12" />
+        <TextView
+            android:id="@+id/lv13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_level_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level13" />
+        <TextView
+            android:id="@+id/lv14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_level_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level14" />
+        <TextView
+            android:id="@+id/lv15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_level_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level15" />
+        <TextView
+            android:id="@+id/lv16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_level_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level16" />
+        <TextView
+            android:id="@+id/lv17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_level_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level17" />
+        <TextView
+            android:id="@+id/lv18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_level_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level18" />
+        <TextView
+            android:id="@+id/lv19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level19" />
+        <TextView
+            android:id="@+id/lv20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level20" />
+        <TextView
+            android:id="@+id/lv21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level21" />
+        <TextView
+            android:id="@+id/lv22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level22" />
+        <TextView
+            android:id="@+id/lv23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level23" />
+        <TextView
+            android:id="@+id/lv24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level24" />
+        <TextView
+            android:id="@+id/lv25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level25" />
+        <TextView
+            android:id="@+id/lv26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_level_start"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level26" />
+        <TextView
+            android:id="@+id/lv27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level27" />
+        <TextView
+            android:id="@+id/lv28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level28" />
+        <TextView
+            android:id="@+id/lv29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level29" />
+        <TextView
+            android:id="@+id/lv30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level30" />
+        <TextView
+            android:id="@+id/lv31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level31" />
+        <TextView
+            android:id="@+id/lv32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level32" />
+        <TextView
+            android:id="@+id/lv33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level33" />
+        <TextView
+            android:id="@+id/lv34"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_level_start"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level34" />
+        <TextView
+            android:id="@+id/lv35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level35" />
+
+        <TextView
+            android:id="@+id/lv36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level36" />
+        <TextView
+            android:id="@+id/lv37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level37" />
+        <TextView
+            android:id="@+id/lv38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level38" />
+        <TextView
+            android:id="@+id/lv39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level39" />
+        <TextView
+            android:id="@+id/lv40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_level_start"
+            android:layout_marginBottom="5dp"
+            android:textSize="24sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/level40" />
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
